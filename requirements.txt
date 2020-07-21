@@ -5,13 +5,14 @@ torch
 torchvision
 matplotlib
 pandas
+numpy
+scikit-learn
 requests
-python==3.6.9
+python-multipart
 pyyaml
 fastprogress==0.1.22
 Pillow
 pip
-scikit-learn
 scipy
 spacy
 fastai2
