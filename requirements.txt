@@ -6,10 +6,10 @@ torchvision
 matplotlib
 pandas
 requests
-python==3.6.9
+python>=3.6
 pyyaml
 fastprogress==0.1.22
-Pillow==7.0.0
+Pillow
 pip
 scikit-learn
 scipy
