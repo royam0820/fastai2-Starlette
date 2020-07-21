@@ -1,8 +1,8 @@
 aiofiles==0.4.0
 aiohttp==3.5.4
 asyncio==3.4.3
-pytorch==1.4.0
-torchvision==0.4.2
+pytorch>=1.4.0
+torchvision>=0.4.2
 matplotlib
 pandas
 requests
