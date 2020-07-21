@@ -8,7 +8,7 @@ pandas
 requests
 pyyaml
 fastprogress==0.1.22
-pillow
+Pillow
 python>=3.6
 pip
 scikit-learn
