@@ -6,7 +6,7 @@ torchvision
 matplotlib
 pandas
 requests
-python
+python==3.6.9
 pyyaml
 fastprogress==0.1.22
 Pillow
