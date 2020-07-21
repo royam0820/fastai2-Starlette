@@ -15,4 +15,3 @@ scikit-learn
 scipy
 spacy
 fastai2
-fastprogress
