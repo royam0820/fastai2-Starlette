@@ -1,8 +1,8 @@
 aiofiles==0.4.0
 aiohttp==3.5.4
 asyncio==3.4.3
-torch==1.5.1+cu101 
-torchvision==0.6.1+cu101
+torch
+torchvision
 matplotlib
 pandas
 requests
