@@ -9,7 +9,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 # export_file_url = YOUR_GDRIVE_LINK_HERE
-export_file_url = 'https://drive.google.com/file/d/1RKuRyjlLi4A7JNiZ9xZN1-U_WPXxMaOs/view?usp=sharing'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1RKuRyjlLi4A7JNiZ9xZN1-U_WPXxMaOs?alt=media&key=AIzaSyDwW_lF9ZU9gguzewL_DocSKcmMEjk_CGc'
 export_file_name = 'export.pkl'
 
 # classes = YOUR_CLASSES_HERE
