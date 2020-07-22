@@ -1,6 +1,6 @@
 import aiohttp
 import asyncio
-import uvicorn==0.11
+import uvicorn
 from fastai2.vision.all import *
 from io import BytesIO
 from starlette.applications import Starlette
