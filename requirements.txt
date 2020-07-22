@@ -16,4 +16,5 @@ Pillow
 pip
 scipy
 spacy
+ipykernel
 fastai2
