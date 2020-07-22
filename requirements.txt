@@ -19,3 +19,4 @@ scipy
 spacy
 ipykernel
 fastai
+fastai2
