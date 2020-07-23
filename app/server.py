@@ -55,11 +55,11 @@ learn = loop.run_until_complete(asyncio.gather(*tasks))[0]
 loop.close()
 
 
-##@app.route('/')
-##async def homepage(request):
-##    html_file = path / 'view' / 'index.html'
-##    return HTMLResponse(html_file.open().read()) */
-##
+@app.route('/')
+#async def homepage(request):
+    html_file = path / 'view' / 'index.html'
+    return HTMLResponse(html_file.open().read()) */
+
 
 ##@app.route('/analyze', methods=['POST'])
 ##async def analyze(request):
