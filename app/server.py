@@ -9,7 +9,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 import json
-from fastai2_inference import Inferencer
+#from fastai2_inference import Inferencer
 
 
 # export_file_url = YOUR_GDRIVE_LINK_HERE
