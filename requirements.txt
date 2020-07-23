@@ -19,4 +19,4 @@ scipy
 spacy
 ipykernel
 fastai2
-fastai2_inference
+fastinference_pytorch
