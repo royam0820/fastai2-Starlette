@@ -71,7 +71,7 @@ async def homepage(request):
 ##  })
 ##
 
-@app.route('/analyze:predict', methods=['POST'])
+@app.route('/analyze', methods=['POST'])
 async def analyze(request):
 
     data = await request.body()
