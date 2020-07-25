@@ -86,8 +86,8 @@ async def analyze(request):
     try: 
         start_time = time.time()
 
-        preds = inf.get_preds(data_json)
-        preds_dec, labels, probabilities = inf.get_results(preds)
+        preds = learn.get_preds(data_json)
+        preds_dec, labels, probabilities = learn.get_results(preds)
 
         inference_time = time.time() - start_time
 
