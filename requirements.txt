@@ -19,5 +19,5 @@ pip
 scipy
 spacy
 ipykernel
-fastcore==0.1.14
+fastcore
 fastai2
