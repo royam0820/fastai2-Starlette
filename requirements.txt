@@ -22,3 +22,4 @@ spacy
 ipykernel==4.10.1
 fastcore==0.1.23
 fastai2==0.0.21
+torch.nn.Module.dump_patches = True
