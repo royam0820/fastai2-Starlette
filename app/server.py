@@ -64,7 +64,7 @@ async def analyze(request):
   #img_np = np.array(Image.open(BytesIO(img_bytes)))
   pred = learn.predict(img)
   return JSONResponse({
-      'result': str(pred)
+      'result': str(pred[0])
   })
 
 
