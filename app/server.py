@@ -62,10 +62,11 @@ async def analyze(request):
   img_bytes = await (img_data['file'].read())
   #img_np = np.array(Image.open(BytesIO(img_bytes)))
   img=PILImage.create(img_bytes)
-  pred = learn.predict(BytesIO(img))
+  pred = learn.predict(BytesIO(img))[0]
   return JSONResponse({
       'result': str(pred[0])
   })
+
 
 
 if __name__ == '__main__':
