@@ -60,13 +60,12 @@ async def homepage(request):
 async def analyze(request):
   img_data = await request.form()
   img_bytes = await (img_data['file'].read())
+  img = PILImage.create(img.data)
   #img_np = np.array(Image.open(BytesIO(img_bytes)))
-  #img=PILImage.create(img_bytes)
-  pred = learn.predict(BytesIO(img_bytes))[0]
+  pred = learn.predict(img)
   return JSONResponse({
-      'result': str(pred[0])
+      'result': str(pred)
   })
-
 
 
 if __name__ == '__main__':
